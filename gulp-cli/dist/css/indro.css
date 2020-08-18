@@ -1,0 +1,31 @@
+.indroWrap {
+  margin-top: 60px;
+  width: 100%; }
+  .indroWrap .indro {
+    overflow: hidden;
+    width: 1090px;
+    margin: 0 auto; }
+    .indroWrap .indro .indroTop {
+      padding: 0 0 20px;
+      overflow: hidden; }
+      .indroWrap .indro .indroTop h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        float: left;
+        margin-right: 20px; }
+        .indroWrap .indro .indroTop h3 a {
+          color: #333; }
+        .indroWrap .indro .indroTop h3 a:hover {
+          color: #B4A078; }
+      .indroWrap .indro .indroTop .c3 {
+        padding-top: 13px;
+        display: block;
+        line-height: 1;
+        float: left;
+        font-size: 14px; }
+    .indroWrap .indro .indroL {
+      float: left;
+      margin-right: 10px; }
+    .indroWrap .indro .indroR img:first-child {
+      margin-bottom: 10px; }

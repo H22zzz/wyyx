@@ -1,0 +1,185 @@
+.main2Wrap {
+  margin-top: 60px;
+  width: 100%; }
+  .main2Wrap .main2 {
+    height: 790px;
+    width: 1090px;
+    margin: 0 auto; }
+    .main2Wrap .main2 .main2Top {
+      padding: 0 0 20px;
+      overflow: hidden; }
+      .main2Wrap .main2 .main2Top h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        float: left;
+        margin-right: 20px; }
+        .main2Wrap .main2 .main2Top h3 a {
+          color: #333; }
+        .main2Wrap .main2 .main2Top h3 a:hover {
+          color: #B4A078; }
+      .main2Wrap .main2 .main2Top .main2RtitR {
+        float: right;
+        padding-top: 14px;
+        font-size: 14px;
+        line-height: 1; }
+        .main2Wrap .main2 .main2Top .main2RtitR a {
+          color: #333; }
+        .main2Wrap .main2 .main2Top .main2RtitR a:hover {
+          color: #B4A078; }
+        .main2Wrap .main2 .main2Top .main2RtitR .main2TopTit {
+          float: left; }
+          .main2Wrap .main2 .main2Top .main2RtitR .main2TopTit b {
+            margin: 0 13px; }
+        .main2Wrap .main2 .main2Top .main2RtitR .main2Top_more {
+          float: left;
+          margin-left: 30px;
+          cursor: pointer; }
+    .main2Wrap .main2 .main2Banner {
+      width: 1090px;
+      height: 310px;
+      margin-bottom: 20px; }
+      .main2Wrap .main2 .main2Banner .bannerWrap {
+        width: 100%;
+        overflow: hidden;
+        position: relative; }
+        .main2Wrap .main2 .main2Banner .bannerWrap .bannerMain {
+          width: 1090px;
+          height: 310px;
+          margin: 0 auto;
+          position: relative; }
+          .main2Wrap .main2 .main2Banner .bannerWrap .bannerMain .show {
+            z-index: 10; }
+          .main2Wrap .main2 .main2Banner .bannerWrap .bannerMain img {
+            width: 1090px;
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 0;
+            z-index: 2;
+            opacity: 0.02; }
+        .main2Wrap .main2 .main2Banner .bannerWrap .prev {
+          position: absolute;
+          left: 10px;
+          top: 50%;
+          z-index: 100;
+          margin-top: -24px;
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+          background: url("../image/icon2.png") no-repeat 0 -5408px;
+          background-color: #E2C199;
+          border-radius: 500px; }
+        .main2Wrap .main2 .main2Banner .bannerWrap .next {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          z-index: 99;
+          margin-top: -24px;
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+          background: url("../image/icon2.png") no-repeat 0 -5628px;
+          background-color: #E2C199;
+          border-radius: 500px; }
+        .main2Wrap .main2 .main2Banner .bannerWrap .num {
+          overflow: hidden;
+          position: absolute;
+          left: 50%;
+          margin-left: -30px;
+          bottom: 4px;
+          z-index: 99; }
+          .main2Wrap .main2 .main2Banner .bannerWrap .num .active {
+            background-color: #a7936e; }
+          .main2Wrap .main2 .main2Banner .bannerWrap .num li {
+            float: left;
+            position: relative;
+            margin: 0 8px 10px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 8px;
+            height: 8px;
+            color: transparent;
+            border: 2px solid #dfcead;
+            border-radius: 50%;
+            background: #fff; }
+    .main2Wrap .main2 .main2Cont .cont {
+      width: 1100px;
+      overflow: hidden;
+      height: 364px;
+      position: relative; }
+      .main2Wrap .main2 .main2Cont .cont .cont-list {
+        overflow: hidden;
+        height: 265px;
+        width: 8000px; }
+        .main2Wrap .main2 .main2Cont .cont .cont-list li {
+          width: 265px;
+          height: 364px;
+          margin-right: 10px;
+          overflow: hidden;
+          float: left;
+          line-height: 1;
+          text-align: center;
+          font-size: 13px;
+          min-height: 1px; }
+          .main2Wrap .main2 .main2Cont .cont .cont-list li a {
+            overflow: hidden;
+            position: relative;
+            display: inline-block; }
+            .main2Wrap .main2 .main2Cont .cont .cont-list li a img {
+              width: 265px;
+              height: 265px;
+              margin-bottom: 8px;
+              background: #F4F4F4; }
+          .main2Wrap .main2 .main2Cont .cont .cont-list li .prdtTags {
+            text-align: center;
+            position: absolute;
+            height: 20px;
+            font-size: 0;
+            color: #fff;
+            width: 200px;
+            margin: 0 33px 3px;
+            overflow: hidden; }
+            .main2Wrap .main2 .main2Cont .cont .cont-list li .prdtTags .m-itemTag {
+              margin-left: 6px;
+              font-size: 12px;
+              height: 20px;
+              line-height: 20px;
+              color: #fff !important;
+              padding: 0 5px;
+              background-color: #e36844; }
+            .main2Wrap .main2 .main2Cont .cont .cont-list li .prdtTags .m-itemTag:first-child {
+              margin-left: 0; }
+          .main2Wrap .main2 .main2Cont .cont .cont-list li h4 {
+            width: 166px;
+            margin: 0 50px 4px;
+            max-height: 40px;
+            line-height: 20px;
+            overflow: hidden;
+            position: absolute;
+            bottom: 25px;
+            font-weight: 700; }
+            .main2Wrap .main2 .main2Cont .cont .cont-list li h4 a {
+              color: #333; }
+          .main2Wrap .main2 .main2Cont .cont .cont-list li h4:hover {
+            width: 166px;
+            margin: 0 50px 4px;
+            max-height: 40px;
+            line-height: 20px;
+            overflow: hidden;
+            position: absolute;
+            bottom: 25px;
+            font-weight: 700; }
+            .main2Wrap .main2 .main2Cont .cont .cont-list li h4:hover a {
+              color: #B4A078; }
+          .main2Wrap .main2 .main2Cont .cont .cont-list li .price {
+            position: absolute;
+            bottom: 0;
+            font-size: 13px;
+            line-height: 13px;
+            color: #d4282d;
+            padding: 1px 0 9px;
+            margin: 0 120px; }

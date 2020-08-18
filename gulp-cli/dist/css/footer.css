@@ -1,0 +1,93 @@
+.footerWrap {
+  width: 100%; }
+  .footerWrap .footerMain .footerTop {
+    width: 1090px;
+    height: 204px;
+    padding: 60px 0 34px;
+    margin: 0 auto; }
+    .footerWrap .footerMain .footerTop h4 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1; }
+    .footerWrap .footerMain .footerTop .footerA {
+      width: 33.25%;
+      height: 204px;
+      float: left;
+      border-right: 1px solid #e9e9e9; }
+    .footerWrap .footerMain .footerTop .footerTopL a {
+      display: inline-block;
+      width: 80px;
+      height: 100px;
+      padding-top: 25px;
+      color: #333;
+      text-align: center;
+      border: 1px solid #E8E8E8; }
+    .footerWrap .footerMain .footerTop .footerTopL a:hover {
+      color: #B4A078; }
+    .footerWrap .footerMain .footerTop .footerTopL .footerFir {
+      margin-top: 10px;
+      margin-left: 90px; }
+    .footerWrap .footerMain .footerTop .footerTopL .footerSec {
+      margin-left: 29px; }
+    .footerWrap .footerMain .footerTop .footerTopM {
+      box-sizing: border-box;
+      padding: 0 37px; }
+      .footerWrap .footerMain .footerTop .footerTopM p {
+        text-align: left;
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 22px; }
+    .footerWrap .footerMain .footerTop .footerTopR {
+      text-align: center; }
+      .footerWrap .footerMain .footerTop .footerTopR p {
+        color: #b4a078;
+        font-size: 12px;
+        margin-top: 3px; }
+
+.footer {
+  width: 100%;
+  height: 230px;
+  background: #414141;
+  padding: 37px 0 0;
+  margin: 0 auto;
+  text-align: center; }
+  .footer .footerBottom {
+    width: 1090px;
+    margin: 0 auto; }
+    .footer .footerBottom .footerList {
+      overflow: hidden;
+      font-size: 18px;
+      color: #fff;
+      line-height: 51px;
+      margin-bottom: 30px;
+      margin-left: 25px; }
+      .footer .footerBottom .footerList li {
+        float: left;
+        margin-left: 122px; }
+    .footer .footerBottom .line {
+      height: 1px;
+      margin-bottom: 27px;
+      background-color: #4f4f4f;
+      border: 0; }
+    .footer .footerBottom .List {
+      text-align: center;
+      cursor: pointer;
+      color: #999; }
+      .footer .footerBottom .List b {
+        margin: auto 13px; }
+      .footer .footerBottom .List i:hover {
+        color: #B4A078; }
+    .footer .footerBottom .cart {
+      font-size: 12px;
+      text-align: center;
+      margin: 11px 0; }
+      .footer .footerBottom .cart a {
+        color: #999;
+        margin-right: 15px; }
+      .footer .footerBottom .cart a:hover {
+        color: #fff;
+        margin-right: 15px; }
+      .footer .footerBottom .cart i {
+        color: #999; }

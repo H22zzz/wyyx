@@ -1,0 +1,173 @@
+.main1Wrap {
+  width: 100%;
+  background: #f4f0ea;
+  padding: 60px 0; }
+  .main1Wrap .main1 {
+    width: 1090px;
+    height: 618px;
+    margin: 0 auto; }
+    .main1Wrap .main1 .main1Top {
+      padding: 0 0 20px;
+      overflow: hidden;
+      height: 28px; }
+      .main1Wrap .main1 .main1Top h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        float: left;
+        margin-right: 20px; }
+        .main1Wrap .main1 .main1Top h3 a {
+          color: #333; }
+      .main1Wrap .main1 .main1Top h3:hover a {
+        color: #b4a078; }
+      .main1Wrap .main1 .main1Top .main1Top_tit {
+        overflow: hidden;
+        float: left;
+        padding-left: 13px; }
+        .main1Wrap .main1 .main1Top .main1Top_tit span {
+          text-align: center;
+          float: left;
+          font-size: 14px;
+          width: 70px;
+          height: 28px;
+          line-height: 28px;
+          margin-right: 55px;
+          color: #333;
+          cursor: pointer; }
+        .main1Wrap .main1 .main1Top .main1Top_tit span:hover {
+          border-bottom: 2px solid #b4a078;
+          color: #b4a078; }
+      .main1Wrap .main1 .main1Top .main1Top_tit_more {
+        display: block;
+        line-height: 1;
+        margin-left: 30px;
+        padding-top: 14px;
+        font-size: 14px;
+        cursor: pointer;
+        float: right; }
+      .main1Wrap .main1 .main1Top .main1Top_tit_more:hover {
+        color: #b4a078; }
+    .main1Wrap .main1 .main1L {
+      width: 390px;
+      height: 570px;
+      float: left;
+      background: #fff; }
+      .main1Wrap .main1 .main1L .main1Ldd {
+        width: 320px;
+        height: 320px; }
+      .main1Wrap .main1 .main1L .main1L_img {
+        width: 100%;
+        height: 360px;
+        border-bottom: #ccc solid 1px;
+        margin-bottom: 18px;
+        cursor: pointer; }
+        .main1Wrap .main1 .main1L .main1L_img img {
+          width: 320px;
+          height: 320px;
+          margin: 40px 35px; }
+      .main1Wrap .main1 .main1L .main1L_img:hover img {
+        transform: scale(1.05);
+        transition: 1s; }
+      .main1Wrap .main1 .main1L .main1L_img img {
+        transform: scale(1);
+        transition: 1s; }
+      .main1Wrap .main1 .main1L .main1Lbt .bdTit {
+        height: 20px;
+        font-size: 12px;
+        color: #fff;
+        width: 200px;
+        overflow: hidden;
+        margin: 0 auto 10px; }
+        .main1Wrap .main1 .main1L .main1Lbt .bdTit .Tit_1 {
+          margin-left: 40px;
+          padding: 0 5px;
+          background: #F28F2D; }
+        .main1Wrap .main1 .main1L .main1Lbt .bdTit .Tit_2 {
+          margin-left: 6px;
+          padding: 0 5px;
+          background: #e36844; }
+      .main1Wrap .main1 .main1L .main1Lbt h4 {
+        text-align: center;
+        line-height: 26px;
+        max-height: 52px;
+        margin: 0 auto 13px;
+        font-size: 18px;
+        width: 248px;
+        font-weight: 700; }
+        .main1Wrap .main1 .main1L .main1Lbt h4 a {
+          color: #333; }
+        .main1Wrap .main1 .main1L .main1Lbt h4 a:hover {
+          color: #b4a078; }
+      .main1Wrap .main1 .main1L .main1Lbt p {
+        text-align: center; }
+        .main1Wrap .main1 .main1L .main1Lbt p .p_1 {
+          font-size: 18px;
+          height: 18px;
+          line-height: 1;
+          color: #D4282D; }
+        .main1Wrap .main1 .main1L .main1Lbt p .p_2 {
+          font-size: 12px;
+          height: 18px;
+          line-height: 1;
+          color: #999;
+          margin-left: 6px;
+          text-decoration: line-through; }
+    .main1Wrap .main1 .main1R {
+      width: 700px;
+      float: right; }
+      .main1Wrap .main1 .main1R .main1RList li {
+        height: 280px;
+        width: 223px;
+        float: left;
+        background: #fff;
+        margin: 0 0 10PX 10px; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rimg {
+          width: 223px;
+          height: 180px;
+          margin-bottom: 8px;
+          cursor: pointer; }
+          .main1Wrap .main1 .main1R .main1RList li .main1Rimg img {
+            width: 180px;
+            height: 180px;
+            margin: 0 10%; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rimg:hover img {
+          transform: scale(1.05);
+          transition: 1s; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rimg img {
+          transform: scale(1);
+          transition: 1s; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rbd .main1Rtit {
+          width: 100%;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          margin-bottom: 4px;
+          text-align: center; }
+          .main1Wrap .main1 .main1R .main1RList li .main1Rbd .main1Rtit i {
+            background: #E36844;
+            padding: 0 5px; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rbd a {
+          color: #333; }
+          .main1Wrap .main1 .main1R .main1RList li .main1Rbd a h4 {
+            text-align: center;
+            font-weight: 700;
+            width: 136px;
+            margin: 0 auto 4px; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rbd a:hover {
+          color: #b4a078; }
+        .main1Wrap .main1 .main1R .main1RList li .main1Rbd p {
+          text-align: center; }
+          .main1Wrap .main1 .main1R .main1RList li .main1Rbd p .p_1 {
+            font-size: 12px;
+            height: 18px;
+            line-height: 13px;
+            color: #D4282D; }
+          .main1Wrap .main1 .main1R .main1RList li .main1Rbd p .p_2 {
+            font-size: 12px;
+            height: 18px;
+            line-height: 1;
+            color: #999;
+            margin-left: 6px;
+            text-decoration: line-through; }
+      .main1Wrap .main1 .main1R .main1RList .noB {
+        margin-bottom: 0; }
