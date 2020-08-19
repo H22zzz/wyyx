@@ -24,6 +24,8 @@
         line-height: 1;
         float: left;
         font-size: 14px; }
+    .indroWrap .indro img {
+      cursor: pointer; }
     .indroWrap .indro .indroL {
       float: left;
       margin-right: 10px; }

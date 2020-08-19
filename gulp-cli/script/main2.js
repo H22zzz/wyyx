@@ -129,3 +129,17 @@
         }
     }
 })();
+(function (){
+    $('.main2Cont .cont-list li').bind({
+        mouseenter: function(){
+            var index = $(this).index() + 1;
+            $(this).find('.main2Cont .cont-list li').css('background-color','#f4f0ea');
+            $(this).find('img').attr('src','../image/new'+index+'.jpg');
+        },
+        mouseleave: function(){
+            var index = $(this).index() + 1;
+            $(this).find('.main2Cont .cont-list li').css('background-color','');
+            $(this).find('img').attr('src','../image/new'+index+'.png');
+        }
+    })
+})();

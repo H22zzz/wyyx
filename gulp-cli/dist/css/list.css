@@ -1,0 +1,315 @@
+.listMainWrap {
+  width: 100%; }
+  .listMainWrap .listBanner {
+    width: 1090px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .listMainWrap .listBanner .listMainTit {
+      padding: 20px 0; }
+      .listMainWrap .listBanner .listMainTit a {
+        font-size: 12px;
+        color: #333; }
+      .listMainWrap .listBanner .listMainTit i {
+        margin: 0 5px; }
+      .listMainWrap .listBanner .listMainTit em {
+        color: #999; }
+    .listMainWrap .listBanner .listBannerWrap {
+      width: 100%;
+      overflow: hidden;
+      position: relative; }
+      .listMainWrap .listBanner .listBannerWrap .listBannerMain {
+        width: 1090px;
+        height: 310px;
+        margin: 0 auto 30px;
+        position: relative; }
+        .listMainWrap .listBanner .listBannerWrap .listBannerMain .show {
+          z-index: 10; }
+        .listMainWrap .listBanner .listBannerWrap .listBannerMain img {
+          width: 1090px;
+          position: absolute;
+          left: 0;
+          margin: 0 auto;
+          top: 0;
+          z-index: 2;
+          opacity: 0.02; }
+      .listMainWrap .listBanner .listBannerWrap .prev {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        z-index: 100;
+        margin-top: -44px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: url("../image/icon2.png") no-repeat 0 -5408px;
+        background-color: #E2C199;
+        border-radius: 500px; }
+      .listMainWrap .listBanner .listBannerWrap .next {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        z-index: 99;
+        margin-top: -44px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: url("../image/icon2.png") no-repeat 0 -5628px;
+        background-color: #E2C199;
+        border-radius: 500px; }
+      .listMainWrap .listBanner .listBannerWrap .listNum {
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        bottom: 34px;
+        z-index: 99; }
+        .listMainWrap .listBanner .listBannerWrap .listNum .active {
+          background-color: #a7936e; }
+        .listMainWrap .listBanner .listBannerWrap .listNum li {
+          float: left;
+          position: relative;
+          margin: 0 8px 10px;
+          padding: 0;
+          cursor: pointer;
+          font-size: 0;
+          line-height: 0;
+          display: block;
+          width: 8px;
+          height: 8px;
+          color: transparent;
+          border: 2px solid #dfcead;
+          border-radius: 50%;
+          background: #fff; }
+    .listMainWrap .listBanner .listAll {
+      padding: 0 40px;
+      margin-top: 10px; }
+      .listMainWrap .listBanner .listAll span {
+        font-size: 14px;
+        color: #999;
+        float: left;
+        margin-right: 28px; }
+      .listMainWrap .listBanner .listAll ul {
+        width: 930px;
+        float: right;
+        color: #333;
+        margin-bottom: 4px; }
+        .listMainWrap .listBanner .listAll ul li {
+          margin-right: 30px;
+          margin-bottom: 16px;
+          font-size: 14px;
+          float: left;
+          cursor: pointer; }
+        .listMainWrap .listBanner .listAll ul li:hover {
+          color: #B4A078; }
+      .listMainWrap .listBanner .listAll .listAllTop,
+      .listMainWrap .listBanner .listAll .listAllM,
+      .listMainWrap .listBanner .listAll .listAllBot {
+        padding-top: 20px;
+        border-bottom: 1px dashed #dedede;
+        overflow: hidden; }
+      .listMainWrap .listBanner .listAll .listAllM span {
+        margin-right: 0; }
+    .listMainWrap .listBanner .listMore1,
+    .listMainWrap .listBanner .listMore2 {
+      cursor: pointer;
+      margin-top: 50px;
+      text-align: center; }
+      .listMainWrap .listBanner .listMore1 h1,
+      .listMainWrap .listBanner .listMore2 h1 {
+        font-size: 24px;
+        font-weight: bold; }
+      .listMainWrap .listBanner .listMore1 h3,
+      .listMainWrap .listBanner .listMore2 h3 {
+        margin-top: 15px;
+        color: gray;
+        font-size: 14px;
+        margin-bottom: 35px; }
+      .listMainWrap .listBanner .listMore1 .list_show,
+      .listMainWrap .listBanner .listMore2 .list_show {
+        width: 1090px;
+        height: 410px; }
+        .listMainWrap .listBanner .listMore1 .list_show .list_show_img1,
+        .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 {
+          float: left;
+          width: 245px;
+          height: 410px;
+          margin-right: 10px;
+          margin-left: 40px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 img,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 img {
+            width: 245px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 p,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 p {
+            margin-top: 8px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px; }
+            .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 p span,
+            .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 p span {
+              background-color: #f28f2d;
+              padding: 2px 5px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 h3,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 h3 {
+            width: 150px;
+            font-size: 13px;
+            height: 13px;
+            margin-left: 50px;
+            color: #333333;
+            font-weight: bold; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 h4,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 h4 {
+            color: #d4282d;
+            font-size: 10px;
+            margin-top: 14px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 div,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 div {
+            width: 130px;
+            height: 1px;
+            background-color: #e8e8e8;
+            margin-top: 10px;
+            margin-left: 56px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img1 h2,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img1 h2 {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 16px; }
+        .listMainWrap .listBanner .listMore1 .list_show .list_show_img2,
+        .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 {
+          float: left;
+          width: 245px;
+          height: 410px;
+          margin-right: 10px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 img,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 img {
+            width: 245px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 p,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 p {
+            margin-top: 8px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px; }
+            .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 p span,
+            .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 p span {
+              background-color: #f28f2d;
+              padding: 2px 5px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 h3,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 h3 {
+            width: 150px;
+            font-size: 13px;
+            height: 13px;
+            margin-left: 50px;
+            color: #333333;
+            font-weight: bold; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 h4,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 h4 {
+            color: #d4282d;
+            font-size: 10px;
+            margin-top: 14px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 div,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 div {
+            width: 130px;
+            height: 1px;
+            background-color: #e8e8e8;
+            margin-top: 10px;
+            margin-left: 56px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img2 h2,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img2 h2 {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 16px; }
+        .listMainWrap .listBanner .listMore1 .list_show .list_show_img3,
+        .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 {
+          float: left;
+          width: 245px;
+          height: 410px;
+          margin-right: 10px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 img,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 img {
+            width: 245px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 p,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 p {
+            margin-top: 8px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px; }
+            .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 p span,
+            .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 p span {
+              background-color: #f28f2d;
+              padding: 2px 5px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 h3,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 h3 {
+            width: 160px;
+            font-size: 13px;
+            height: 13px;
+            margin-left: 50px;
+            color: #333333;
+            font-weight: bold; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 h4,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 h4 {
+            color: #d4282d;
+            font-size: 10px;
+            margin-top: 14px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 div,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 div {
+            width: 130px;
+            height: 1px;
+            background-color: #e8e8e8;
+            margin-top: 10px;
+            margin-left: 56px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img3 h2,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img3 h2 {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 16px; }
+        .listMainWrap .listBanner .listMore1 .list_show .list_show_img4,
+        .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 {
+          float: left;
+          width: 245px;
+          height: 410px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 img,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 img {
+            width: 245px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 p,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 p {
+            margin-top: 8px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px; }
+            .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 p span,
+            .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 p span {
+              background-color: #f28f2d;
+              padding: 2px 5px;
+              opacity: 0; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 h3,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 h3 {
+            width: 150px;
+            font-size: 13px;
+            height: 13px;
+            margin-left: 50px;
+            color: #333333;
+            font-weight: bold; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 h4,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 h4 {
+            color: #d4282d;
+            font-size: 10px;
+            margin-top: 14px; }
+            .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 h4 i,
+            .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 h4 i {
+              text-decoration: line-through; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 div,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 div {
+            width: 130px;
+            height: 1px;
+            background-color: #e8e8e8;
+            margin-top: 10px;
+            margin-left: 56px; }
+          .listMainWrap .listBanner .listMore1 .list_show .list_show_img4 h2,
+          .listMainWrap .listBanner .listMore2 .list_show .list_show_img4 h2 {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 16px; }

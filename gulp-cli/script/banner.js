@@ -2,8 +2,9 @@
     var imgs = document.querySelectorAll('.bannerMain img');
     console.log(imgs);
     var nums = document.querySelectorAll('.num li');
-    var prev = document.querySelector('.prev');
-    var next = document.querySelector('.next');
+    var prev = document.querySelector('.prevB');
+    console.log(prev);
+    var next = document.querySelector('.nextB');
     var timer;
     // 当前显示图片的下标
     var showIndex = 0;
@@ -70,6 +71,7 @@
 
     // 点下一页
     next.onclick = function () {
+        console.log(111);
         // 清除所有计时器
         clearInterval(timer);
         clearInterval(imgs[showIndex].timer);

@@ -1,7 +1,406 @@
-.headWrap{
-    width: 100%;
-    .headMain{
-        width: 1090px;
-        margin: 0 auto;
+.headWrap {
+  width: 100%;
+
+  .topWrap {
+    background: #333;
+
+    .top {
+      height: 36px;
+      width: 1090px;
+      margin: 0 auto;
+
+      .topIndro {
+        width: 256px;
+        height: 36px;
+        float: left;
+        background: url(../image/laba.gif) no-repeat left center;
+
+        a {
+          color: #CC9756;
+          text-decoration: underline;
+          margin-left: 26px;
+          line-height: 36px;
+        }
+
+        a:hover {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      .topList {
+        float: right;
+
+        div {
+          margin-top: 10px;
+          float: left;
+          height: 12px;
+          border-right: 1px solid #5c5c5c;
+          padding-right: 10px;
+          padding-left: 10px;
+          vertical-align: middle;
+          color: #ccc;
+          cursor: pointer;
+
+          
+          h3 {
+            font-size: 12px;
+            height: 36px;
+          }
+        }
+
+        div:hover {
+          color: #fff;
+        }
+
+        .buy,
+        .serv {
+          position: relative;
+
+          ul {
+            position: absolute;
+            top: 26px;
+            left: 0;
+            width: 80px;
+            padding: 3px 0;
+            color: #999;
+            display: none;
+            background: #fff;
+            border: 1px solid #ddd;
+            z-index: 999;
+
+            li {
+              margin: 0 13px;
+              text-align: center;
+              line-height: 38px;
+              border-top: 1px solid #ddd;
+            }
+
+            li:hover {
+              color: #CC9756;
+            }
+          }
+        }
+      }
     }
+  }
+
+
+  .searWrap {
+    width: 100%;
+
+    .sear {
+      position: relative;
+      height: 140px;
+      width: 1090px;
+      margin: 0 auto;
+      // background: #ccf;
+
+      .yx-cp-tabLogo {
+        position: absolute;
+        top: 24px;
+        left: 0;
+
+        i {
+          height: 60px;
+          width: 212px;
+          display: inline-block;
+          overflow: hidden;
+          vertical-align: top;
+          word-spacing: normal;
+          letter-spacing: normal;
+          background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxtop-s4e5a8e15c4-6c6b72bf09.png?imageView&type=webp) 2x);
+          background-repeat: no-repeat;
+          background-position: 0 -298px;
+        }
+      }
+
+      .yx-cp-m-cartEnterWrap {
+        position: relative;
+        margin-top: 26px;
+        margin-left: 49px;
+        float: right;
+        z-index: 4;
+
+        .yx-cp-m-cartEnter {
+          box-sizing: border-box;
+          position: relative;
+          cursor: pointer;
+          width: 134px;
+          height: 38px;
+          border: 1px solid #CC9756;
+          border-radius: 19px;
+          padding: 8px 0;
+
+
+          .yx-cp-cartName {
+            color: #CC9756;
+            margin-left: 5px;
+            margin-top: -1px;
+            font-size: 14px;
+          }
+
+          .yx-cp-icon-yxtop {
+            background-position: 0 -148px;
+            height: 18px;
+            width: 18px;
+            display: inline-block;
+            overflow: hidden;
+            vertical-align: top;
+            font-size: 12px;
+            word-spacing: normal;
+            letter-spacing: normal;
+          }
+
+
+          .icon-yxtop-cart-s {
+            background-position: 0 -148px;
+            height: 18px;
+            width: 18px;
+            margin-left: 22px;
+            background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxtop-s4e5a8e15c4-6c6b72bf09.png?imageView&type=webp) 2x);
+            background-repeat: no-repeat;
+          }
+
+          .icon-yxtop-badge {
+            margin-left: 10px;
+            margin-top: -1px;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+            z-index: 1;
+            background-position: 0 -51px;
+            height: 19px;
+            width: 19px;
+            display: inline-block;
+            overflow: hidden;
+            vertical-align: top;
+            font-size: 12px;
+            word-spacing: normal;
+            letter-spacing: normal;
+            background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxtop-s4e5a8e15c4-6c6b72bf09.png?imageView&type=webp) 2x);
+          }
+        }
+
+        .yx-cp-m-cartEnter:hover {
+          background-color: #F5F3EF;
+        }
+      }
+
+      .yx-cp-m-tabNav {
+        line-height: 1;
+        font-weight: 700;
+        position: absolute;
+        height: 30px;
+        bottom: 21px;
+        width: 100%;
+        box-sizing: border-box;
+
+        .yx-cp-tabNav-item {
+          float: left;
+          margin-top: 27px;
+          padding: 0 26px;
+          font-size: 14px;
+
+          .yx-cp-topLevel {
+            display: block;
+            padding-bottom: 7px;
+            color: #000;
+          }
+
+          .yx-cp-tabNav-dropdown {
+            z-index: 200;
+            width: 1205px;
+            height: 405px;
+            background-color: white;
+            position: absolute;
+            left: -100px;
+            display: none;
+
+            img {
+              width: 50px;
+              height: 50px;
+            }
+
+            h3 {
+              color: #323232;
+              height: 50px;
+              line-height: 60px;
+              border-bottom: 1px solid #ccc;
+            }
+
+            ul {
+              margin: 0 2px;
+              float: left;
+            }
+
+            li {
+              height: 60px;
+              line-height: 60px;
+              padding: 0 20px;
+              float: none;
+              font-weight: normal;
+              color: #5e5d5d;
+
+              a {
+                height: 50px;
+              }
+            }
+
+            li:hover {
+              color: #CC9756;
+            }
+          }
+
+        }
+
+        .yx-cp-active {
+          .yx-cp-topLevel {
+            color: #CC9756;
+            border-bottom: 3px solid #CC9756;
+          }
+        }
+
+        .yx-cp-tabNav-item:hover .yx-cp-topLevel {
+          color: #CC9756;
+          border-bottom: 3px solid #CC9756;
+        }
+
+        .yx-cp-tabNav-split {
+          border-left: 1px solid #ccc;
+          height: 14px;
+          margin-top: 28px;
+          float: left;
+        }
+
+        .yx-cp-tabNav-item.yx-cp-firstItem {
+          margin-left: 0;
+          padding-left: 0;
+        }
+
+        .yx-cp-tabNav-item.yx-cp-lastItem {
+          padding-right: 0;
+        }
+
+        .yx-cp-tabNav-dropdown {
+          // display: none;
+          position: absolute;
+          top: 51px;
+          background-color: transparent;
+          // box-sizing: border-box;
+
+          .yx-cp-cateGroupList {
+            padding: 14px 20px 20px 0;
+            background: #fff;
+            float: left;
+
+            .yx-cp-cateGroup-name {
+              width: 124px;
+              max-width: 124px;
+              display: inline-block;
+              margin-bottom: 10px;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 36px;
+              border-bottom: 1px solid #ddd;
+            }
+
+            li {
+              .yx-cp-subCate-icon {
+                height: 50px;
+                width: 50px;
+              }
+
+              .yx-cp-subCate-text {
+                display: inline-block;
+                width: 70px;
+                max-width: 70px;
+                max-height: 48px;
+                margin-left: 4px;
+                font-size: 14px;
+                font-weight: normal;
+                vertical-align: middle;
+                line-height: 1.2;
+                overflow: hidden;
+                word-wrap: break-word;
+              }
+            }
+
+            li a {
+              margin-bottom: 4px;
+              font-weight: 400;
+              line-height: 50px;
+            }
+          }
+        }
+      }
+
+      .yx-cp-m-search {
+        position: relative;
+        margin-top: 26px;
+        float: right;
+        width: 532px;
+        height: 36px;
+
+        .icon-yxtop-search-gray {
+          position: absolute;
+          left: 18px;
+          top: 12px;
+          height: 14px;
+          width: 14px;
+          background-position: 0 -518px;
+          display: inline-block;
+          overflow: hidden;
+          vertical-align: top;
+          font-size: 12px;
+          word-spacing: normal;
+          letter-spacing: normal;
+          background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png?imageView&type=webp) 1x, url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x2/icon-yxtop-s4e5a8e15c4-6c6b72bf09.png?imageView&type=webp) 2x);
+
+        }
+
+        .yx-cp-searchInput {
+          position: absolute;
+          left: 0px;
+          top: 0;
+          z-index: 1;
+          display: block;
+          height: 32px;
+          line-height: 38px;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          border: 1px solid #CC9756;
+          border-bottom-left-radius: 19px;
+          border-top-left-radius: 19px;
+          font-size: 14px;
+          width: 400px;
+          padding-left: 38px;
+          outline: 0;
+          overflow: hidden;
+          background: 0 0;
+          background: url(//yanxuan.nosdn.127.net/78c8186….png)\9;
+        }
+
+        .yx-cp-searchButton {
+          width: 90px;
+          height: 38px;
+          background-color: #CC9756;
+          border-top-right-radius: 19px;
+          border-bottom-right-radius: 19px;
+          cursor: pointer;
+          float: right;
+          color: #fff;
+          line-height: 38px;
+          text-align: center;
+          font-size: 16px;
+          letter-spacing: 1px;
+        }
+
+        .yx-cp-searchButton:hover {
+          background-color: #E2C199;
+        }
+      }
+
+    }
+  }
 }

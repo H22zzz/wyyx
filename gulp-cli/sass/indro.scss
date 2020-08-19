@@ -27,21 +27,27 @@
                     color: #B4A078;
                 }
             }
+
             .c3 {
                 padding-top: 13px;
                 display: block;
                 line-height: 1;
                 float: left;
                 font-size: 14px;
-              }
+            }
         }
 
-        .indroL{
+        img {
+            cursor: pointer;
+        }
+
+        .indroL {
             float: left;
             margin-right: 10px;
         }
-        .indroR{
-            img:first-child{
+
+        .indroR {
+            img:first-child {
                 margin-bottom: 10px;
             }
         }
