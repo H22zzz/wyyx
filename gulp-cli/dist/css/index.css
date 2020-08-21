@@ -159,17 +159,8 @@
             font-weight: 700; }
             .newListWrap .newList .cont .cont-list li h4 a {
               color: #333; }
-          .newListWrap .newList .cont .cont-list li h4:hover {
-            width: 166px;
-            margin: 0 50px 4px;
-            max-height: 40px;
-            line-height: 20px;
-            overflow: hidden;
-            position: absolute;
-            bottom: 25px;
-            font-weight: 700; }
-            .newListWrap .newList .cont .cont-list li h4:hover a {
-              color: #B4A078; }
+          .newListWrap .newList .cont .cont-list li h4:hover a {
+            color: #B4A078; }
           .newListWrap .newList .cont .cont-list li .price {
             position: absolute;
             bottom: -40px;

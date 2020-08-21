@@ -79,7 +79,6 @@
       border: 2px solid #dfcead;
       border-radius: 50%;
       background: #fff;
-
     }
   }
 }
@@ -213,19 +212,8 @@
             }
           }
 
-          h4:hover {
-            width: 166px;
-            margin: 0 50px 4px;
-            max-height: 40px;
-            line-height: 20px;
-            overflow: hidden;
-            position: absolute;
-            bottom: 25px;
-            font-weight: 700;
-
-            a {
-              color: #B4A078;
-            }
+          h4:hover a {
+            color: #B4A078;
           }
 
           .price {
